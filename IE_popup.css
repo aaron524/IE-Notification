@@ -1,0 +1,117 @@
+body, html {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+* { _noFocusLine: expression(this.hideFocus=true); }
+
+.blackout {
+	position: fixed;
+	*position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #444;
+}
+#ie_popup {
+	position: relative;
+	top: 50%;
+	margin: -250px auto 0;
+	padding: 0 10px 0 16px;
+	width: 700px;
+	height: 400px;
+	background: url('img/gplaypattern.png');
+	border: 16px solid #fff;
+	line-height: 1.25;
+	color: #444;
+	/*text-align: center;*/
+}
+#ie_popup h1 {
+	margin: 28px 0 0 18px;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 33px;
+	background: #fff;
+}
+#ie_popup p {
+	margin: 33px 0 0 23px /*18px*/;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+	font-size: 20px;*
+	font-weight: lighter;
+}
+.browsers_list {
+	position: absolute;
+	bottom: 38px;
+	margin: 0;
+	padding: 0;
+	width: 700px;
+	list-style: none;
+	font-size: 17px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.browsers_list li {
+	display: inline-block;
+	width: 128px;
+	height: 158px;
+	overflow: hidden;
+	/*letter-spacing: normal;
+	 font-size: normal;
+	 white-space: normal;
+	 text-align: normal;
+	 vertical-align: middle;*/
+}
+.browsers_list li {
+	*
+	display: inline;
+	margin: 0 0 0 10px;
+}
+.browsers_list li:first-child {
+	margin-left: 0;
+}
+.download_link {
+	display: block;
+	padding-top: 130px;
+	height: 140px;
+	text-decoration: none;
+	background: transparent url("img/browser_logos-128.gif") no-repeat scroll 0 0;
+	outline: 0;
+	color: #777;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.download_link:hover {
+	text-decoration: underline;
+}
+
+.caption {
+	background: #fff;
+	padding: 0 6px 2px;
+}
+.download_link.firefox {
+	background-position: -155px -3px;
+}
+.download_link.chrome {
+	background-position: -11px -3px;
+}
+.download_link.opera {
+	background-position: -295px -3px;
+}
+.download_link.safari {
+	background-position: -433px -3px;
+}
+.download_link.ie {
+	background-position: -570px -3px;
+	text-indent: 11px;
+}
+/*.download_link.ie .caption {
+	padding-left: 0;
+	padding-right: 0;
+}*/
