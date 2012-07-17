@@ -24,7 +24,7 @@ body, html {
 	padding: 0 10px 0 16px;
 	width: 700px;
 	height: 400px;
-	background: url('img/gplaypattern.png');
+	background: url('gplaypattern.png');
 	border: 16px solid #fff;
 	line-height: 1.25;
 	color: #444;
@@ -80,7 +80,7 @@ body, html {
 	padding-top: 130px;
 	height: 140px;
 	text-decoration: none;
-	background: transparent url("img/browser_logos-128.gif") no-repeat scroll 0 0;
+	background: transparent url("browser_logos-128.gif") no-repeat scroll 0 0;
 	outline: 0;
 	color: #777;
 	font-size: 18px;
